@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não sei meu CEP</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Não sei meu CEP</h2>
+
+        <form>
+
+            <div class="frm-row">
+                <label for="rua">RUA</label>
+                <input type="text" nome="rua" id="rua">
+            </div>
+
+            <div class="frm-row">
+                <label for="cidade">CIDADE</label>
+                <input type="text" nome="cidade" id="cidade">
+            </div>
+            <div class="frm-row">
+                <label for="estado">ESTADO</label>
+                <input type="text" nome="estado" id="estado">
+            </div>
+            <div class="frm-row">
+                <button id="btnBuscarCep" class="btn">Buscar CEP</button> </div>
+
+        </form>
+        <ul id="listaCep"></ul>
+
+    </div>
+
+    <script src="buscacep.js"></script>
+</body>
+
+</html>
